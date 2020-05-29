@@ -37,5 +37,5 @@ $wait_for_release = @(
 )
 
 foreach ($app in $apps) {
-    winget install -e $app
+    winget install -e --id $app
 }
